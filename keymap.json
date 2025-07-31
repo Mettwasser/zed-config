@@ -1,0 +1,47 @@
+[
+    {
+        "context": "Workspace",
+        "bindings": {
+            "shift shift": "file_finder::Toggle"
+        }
+    },
+    {
+        "bindings": {
+            // explorer
+            "ctrl-m": "project_panel::ToggleFocus",
+            "ctrl-enter": "editor::NewlineBelow",
+
+            // terminal
+            "ctrl-'": "workspace::ToggleBottomDock",
+            "ctrl-`": null,
+            "ctrl-j": null,
+
+            // editing
+            "alt-shift-down": "editor::DuplicateLineDown",
+            "ctrl-alt-shift-down": null,
+            "alt-shift-up": "editor::DuplicateLineUp",
+            "ctrl-alt-shift-up": null,
+            "ctrl-alt-up": "editor::AddSelectionAbove",
+            "ctrl-alt-down": "editor::AddSelectionBelow",
+            "ctrl-alt--": null,
+            "ctrl-alt-_": null,
+            "alt-left": "pane::GoBack",
+            "alt-right": "pane::GoForward",
+
+            // zed stuff
+            "ctrl-q": null // remove quit keybind
+        }
+    },
+    {
+        "bindings": {
+            "ctrl-left": "pane::ActivatePreviousItem",
+            "ctrl-right": "pane::ActivateNextItem"
+        }
+    },
+    {
+        "context": "ProjectPanel",
+        "bindings": {
+            "enter": "project_panel::Open"
+        }
+    }
+]
