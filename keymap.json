@@ -33,6 +33,7 @@
         }
     },
     {
+        "context": "Terminal",
         "bindings": {
             "ctrl-left": "pane::ActivatePreviousItem",
             "ctrl-right": "pane::ActivateNextItem"
